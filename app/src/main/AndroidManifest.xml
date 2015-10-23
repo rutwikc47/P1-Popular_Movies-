@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="rccorp.movies" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Movies"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MasterDetailFlow.MoviePosterListActivity"
+            android:label="Movies"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MasterDetailFlow.MoviePosterDetailActivity"
+            android:label="MovieDetails"
+            android:parentActivityName=".MasterDetailFlow.MoviePosterListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="rccorp.movies.MasterDetailFlow.MoviePosterListActivity" />
+        </activity>
+        <activity
+            android:name=".Activities.TrailerView"
+            android:label="@string/title_activity_trailers" >
+        </activity>
+        <activity
+            android:name=".Activities.ReviewsView"
+            android:label="Reviews" >
+        </activity>
+    </application>
+
+</manifest>

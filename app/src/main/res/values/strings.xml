@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Movies</string>
+
+    <string name="action_popular">Most Popular</string>
+    <string name="action_highest">Highest Rated</string>
+    <string name="title_activity_movie_details">MovieDetails</string>
+    <string name="title_activity_trailers">Trailers</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_reviews_view">ReviewsView</string>
+    <string name="title_movieposter_list">MoviePosters</string>
+    <string name="title_movieposter_detail">MoviePoster Detail</string>
+</resources>
