@@ -26,7 +26,7 @@ public class TrailerSync extends AsyncTaskLoader<List<Trailers>>{
 
     public TrailerSync(Context context, String itemid) {
         super(context);
-        tUrl = "http://api.themoviedb.org/3/movie/" +itemid + "/videos?&api_key=496b4a41cb11baf342d1a13bb3e6f6f5";
+        tUrl = "http://api.themoviedb.org/3/movie/" +itemid + "/videos?&api_key=//Your API KEY ";
     }
 
     @Override

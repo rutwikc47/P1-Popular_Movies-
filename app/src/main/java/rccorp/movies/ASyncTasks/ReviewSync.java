@@ -27,7 +27,7 @@ public class ReviewSync extends AsyncTaskLoader<List<Reviews>> {
 
     public ReviewSync(Context context, String itemid) {
         super(context);
-        rurl = "http://api.themoviedb.org/3/movie/" + itemid + "/reviews?&api_key=496b4a41cb11baf342d1a13bb3e6f6f5";
+        rurl = "http://api.themoviedb.org/3/movie/" + itemid + "/reviews?&api_key="""""""Your API KEY """""""""""""""""";
     }
 
 

@@ -57,8 +57,8 @@ public class MoviePosterListFragment extends Fragment implements LoaderManager.L
     public static final String INTENT_KEY_MOVIE_RELEASE = "intent_key_movie_release";
     public static final String INTENT_KEY_MOVIE_ID="intent_key_movie_id";
 
-    private static final String URL_POPULAR = "http://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=496b4a41cb11baf342d1a13bb3e6f6f5";
-    private static final String URL_HIGHEST_RATED = "http://api.themoviedb.org/3/discover/movie?certification_country=US&vote_count.gte=1000&sort_by=vote_average.desc&api_key=496b4a41cb11baf342d1a13bb3e6f6f5";
+    private static final String URL_POPULAR = "http://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=//Your API KEY ";
+    private static final String URL_HIGHEST_RATED = "http://api.themoviedb.org/3/discover/movie?certification_country=US&vote_count.gte=1000&sort_by=vote_average.desc&api_key=//Your API KEY ";
 
     private PosterAdapter mPosterAdapter;
     private Activity mActivity;

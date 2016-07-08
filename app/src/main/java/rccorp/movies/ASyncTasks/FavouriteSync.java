@@ -46,8 +46,8 @@ public class FavouriteSync extends AsyncTaskLoader<List<Movie>>{
             try {
                 // Construct the URL for the Moviesdb query
 
-//            URL url = new URL("http://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=496b4a41cb11baf342d1a13bb3e6f6f5");
-                URL url = new URL("http://api.themoviedb.org/3/movie/"+movieId+"?&api_key=496b4a41cb11baf342d1a13bb3e6f6f5");
+//            URL url = new URL("http://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key="""""""Your API KEY """""""""""""""""");
+                URL url = new URL("http://api.themoviedb.org/3/movie/"+movieId+"?&api_key="""""""Your API KEY """""""""""""""""");
                 // Create the request to TMDB, and open the connection
                 urlConnection = (HttpURLConnection) url.openConnection();
                 urlConnection.setRequestMethod("GET");
